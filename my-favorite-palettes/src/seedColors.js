@@ -23,36 +23,36 @@ export default [
     ]
   },
   {
-    paletteName: "Botanic-Print",
-    id: "botanic",
+    paletteName: "Yi Li",
+    id: "yili",
     emoji: "🎨",
     colors: [
       { name: "black", color: "#151812" },
       { name: "green", color: "#76CA71" },
-      { name: "beige", color: "#6148AA" },
+      { name: "lila", color: "#6148AA" },
       { name: "white", color: "#FFFFFF" },
      
     ]
   }, {
-    paletteName: "Botanic-Print",
-    id: "botanic",
+    paletteName: "hellohello 2",
+    id: "hellohello2",
     emoji: "🎨",
     colors: [
       { name: "black", color: "#151515" },
       { name: "green", color: "#85DD74" },
-      { name: "beige", color: "#E1F782" },
+      { name: "light green", color: "#E1F782" },
       { name: "white", color: "#FFFFFF" },
      
     ]
   }, {
-    paletteName: "Botanic-Print",
-    id: "botanic",
+    paletteName: "Sanket Pal",
+    id: "sanketpal",
     emoji: "🎨",
     colors: [
-      { name: "black", color: "#" },
-      { name: "green", color: "#8AD167" },
-      { name: "beige", color: "#DFDE9F" },
-      { name: "white", color: "#FFFFFF" },
+      { name: "green 1", color: "#2D452F" },
+      { name: "green 2", color: "#4C6A4B" },
+      { name: "green 3", color: "#6B9D4A" },
+      { name: "green 4", color: "#CFE2CE" },
      
     ]
   },
