@@ -2,8 +2,8 @@ import chroma from "chroma-js";
 import sizes from "./sizes";
 export default {
   ColorBox: {
-    width: "20%",
-    height: props => (props.showingFullPalette ? "50%" : "100%"),
+    width: props => (props.colorCount == 4 ? "25%" : "20%"),
+    height: props => (props.showingFullPalette ? "100%" : "100%"),
     margin: "0 auto",
     display: "inline-block",
     position: "relative",

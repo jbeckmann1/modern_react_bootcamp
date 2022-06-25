@@ -34,7 +34,8 @@ export default {
   },
   miniColor: {
     height: "100%",
-    width: "20%",
+   
+    width: props => (props.colors.length == 4 ? "25%" : "20%"),
     display: "inline-block",
     margin: "0 auto",
     position: "relative",
