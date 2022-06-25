@@ -47,8 +47,8 @@ class PaletteList extends Component {
     return (
       <div className={classes.root}>
         <div className={classes.container}>
-          <nav className={classes.nav}>
-            <h1 className={classes.heading}>Favourite color palettes</h1>
+          <nav className={classes.nav}><h1 className={classes.heading}><img alt="logo"src={require('./styles/logo.svg')} height="120rem" ></img></h1>
+          
             <Link to='/palette/new'>Create Palette</Link>
           </nav>
           <TransitionGroup className={classes.palettes}>

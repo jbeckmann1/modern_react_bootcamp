@@ -26,7 +26,8 @@ export default {
   container: {
     width: "50%",
     display: "flex",
-    alignItems: "flex-start",
+    alignItems: "center",
+    justifyContent: "center",
     flexDirection: "column",
     flexWrap: "wrap",
     [sizes.down("xl")]: {
@@ -50,7 +51,7 @@ export default {
     boxSizing: "border-box",
     width: "100%",
     display: "grid",
-    gridTemplateColumns: "repeat(3, 30%)",
+    gridTemplateColumns: "repeat(3, 31.5%)",
     gridGap: "2.5rem",
     [sizes.down("md")]: {
       gridTemplateColumns: "repeat(2, 50%)"

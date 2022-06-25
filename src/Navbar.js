@@ -29,8 +29,9 @@ class Navbar extends Component {
     const { format } = this.state;
     return (
       <header className={classes.Navbar}>
-        <div className={classes.logo}>
-          <Link to='/'>reactcolorpicker</Link>
+        <div>
+          <Link to='/'>          <img alt="logo"src={require('./styles/logo_dark.svg')} height="100rem" ></img>
+</Link>
         </div>
         {showingAllColors && (
           <div>
