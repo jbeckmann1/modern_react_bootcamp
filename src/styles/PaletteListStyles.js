@@ -51,7 +51,7 @@ export default {
     boxSizing: "border-box",
     width: "100%",
     display: "grid",
-    gridTemplateColumns: "repeat(3, 31.5%)",
+    gridTemplateColumns: "repeat(3, 30.5%)",
     gridGap: "2.5rem",
     [sizes.down("md")]: {
       gridTemplateColumns: "repeat(2, 50%)"

@@ -38,7 +38,7 @@ export default [
     id: "flora4",
     emoji: "🌱",
     colors: [
-      { name: "black", color: "#151515" },
+      { name: "dark cyan", color: "#151515" },
       { name: "green", color: "#85DD74" },
       { name: "light green", color: "#E1F782" },
       { name: "white", color: "#FFFFFF" },
