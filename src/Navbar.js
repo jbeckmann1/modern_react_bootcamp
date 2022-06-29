@@ -30,7 +30,7 @@ class Navbar extends Component {
     return (
       <header className={classes.Navbar}>
         <div>
-          <Link to='/'>          <img alt="logo"src={require('./styles/logo_dark.svg')} height="100rem" ></img>
+          <Link to='/'>          <img alt="logo"src={require('./styles/logo.svg')} height="32rem" ></img>
 </Link>
         </div>
         {showingAllColors && (
